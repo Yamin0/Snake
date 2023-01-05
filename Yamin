@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jeu de Snake</title>
+  <style>
+    body {
+      background-color: black;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    #canvas {
+      background-color: white;
+      border: 1px solid white;
+      margin: 0 auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <canvas id="canvas" width="400" height="400"></canvas>
+  </div>
+  <script src="snake.js"></script>
+</body>
+</html>
